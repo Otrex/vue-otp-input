@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>OTP Input Version 1.0</h1>
+    <otp-input :dimension="'30px'" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import OTPInput from "./components/OTPInput.vue";
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    "otp-input": OTPInput
   }
 }
 </script>
